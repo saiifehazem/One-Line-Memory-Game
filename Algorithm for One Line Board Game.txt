@@ -1,0 +1,25 @@
+Algorithm for One Line Board Game 
+
+Start
+
+0- While(True)
+1- First Player Enter Two Numbers
+2- If (Num1 and Num2) both smaller than or equal 20 and bigger than or equal 1
+3-  If Both Numbers Have The Same Letters In The List Of Letters
+4-      p1Score +=1 , Num1 = '*' , Num2 = '*'
+5-      Check The Score Of The Two Players If Someone Win End The Game
+6-  Else If Both Numbers Don't Have Same  Letters In List Of Letters 
+7-      Num1 = ListOfLetters[Num-1] , Num2 = ListOfLetters[Num2-1]
+8-      Show The List Of Numbers To The Player
+9- Else Print("Wrong Play Play Again")
+10- Second Player Enter Two Numbers
+11- If (Num1 and Num2) both smaller than or equal 20 and bigger than or equal 1
+12-  If Both Numbers Have The Same Letters In The List Of Letters
+13-      p2Score +=1 , Num1 = '*' , Num2 = '*'
+14-      Check The Score Of The Two Players If Someone Win End The Game
+15-  Else If Both Numbers Don't Have Same  Letters In List Of Letters 
+16-      Num1 = ListOfLetters[Num-1] , Num2 = ListOfLetters[Num2-1]
+17-      Show The List Of Numbers To The Player
+18- Else Print("Wrong Play Play Again")
+
+End
