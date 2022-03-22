@@ -1,4 +1,4 @@
-Algorithm for One Line Board Game 
+One Line Board Game Algorithm
 
 Start
 
